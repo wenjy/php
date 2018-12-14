@@ -1,15 +1,13 @@
 ## 配置设定范围
-PHP_INI_USER  可以在用户脚本（ini_set）或Windows注册表以及 .user.ini
-PHP_INI_PERDIE  可以在 php.ini .htaccess httpd.conf
-PHP_INI_SYSTEM  可以在 php.ini httpd.conf
-PHP_INI_ALL 任何地方
+### PHP_INI_USER  可以在用户脚本（ini_set）或Windows注册表以及 .user.ini
+### PHP_INI_PERDIE  可以在 php.ini .htaccess httpd.conf
+### PHP_INI_SYSTEM  可以在 php.ini httpd.conf
+### PHP_INI_ALL 任何地方
 
-### [PHP]相关设置
+## [PHP]相关设置
 
 配置名称 | 配置项 | 默认值 | 可以修改范围 | 说明
-
 --- | --- | --- | --- | ---
-
 engine | on off | on | A | 打开或关闭PHP解析，仅在使用PHP的Apache模块版本时才有用
 
 short_open_tag  on|off  on  A 是否允许PHP短标签 <? ?>
