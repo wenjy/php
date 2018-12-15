@@ -99,10 +99,10 @@ default_charset|string|utf-8|A|设置PHP默认编码，header的content-type中�
 internal_encoding|string|null|A|设置PHP内部编码，为空时，为default_charset的值
 input_encoding|string|null|A|设置PHP输入编码，为空时，为default_charset的值
 output_encoding|string|null|A|设置PHP输出编码，为空时，为default_charset的值
-include_path|string|.:/usr/local/php5/lib/php|A|指定 require include fopen file readfile file_get_content 函数查找文件的目录列表
+include_path|string||A|指定 require include fopen file readfile file_get_content 函数查找文件的目录列表，默认类似 .:/usr/local/php5/lib/php
 odc_root|string|null|S|设置PHP运行目录，其它目录下的代码无法运行
 user_dir|string|null|S|
-extension_dir|string|/usr/local/php5/lib/php/extensions/no-debug-non-zst-20160303|S|动态扩展加载目录
+extension_dir|string||S|动态扩展加载目录，默认类似 /usr/local/php5/lib/php/extensions/no-debug-non-zst-20160303
 sys_temp_dir|string|null|S|指定PHP临时文件保存目录
 enable_dl|On Off|On|S|仅对Apache有效，dl() 动态加载PHP模块
 cgi.force_redirect|On Off|On|S|仅对 Apache 有效，防止通过连接直接调用PHP，此模式只会解析已经通过web服务器重定向规则的URL
