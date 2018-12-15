@@ -112,7 +112,7 @@ cgi.fix_pathinfo|On Off|On|S|为 CGI 提供真正的 PATH_INFO/PATH_TRANSLATED �
 cgi.discard_path|On Off|Off|S|如果启用，PHP CGI 二进制文件可以安全的放置在web树之外，并且人们将无法规避 .htaccess 安全性
 fastcgi.impersonate|On Off|Off|S|IIS 下的 FastCGI 支持模拟主叫客户端的安全令牌的能力
 fastcgi.logging|On Off|On|S|使用 FastCGI 时打开 SAPI 日志记录
-cgi.rfc2616_headers|On Off|A|告诉PHP发送HTTP响应代码是需要使用什么类型的标头，0表示发送web服务器支持的 Status 头，1表示符合RFC 2616
+cgi.rfc2616_headers|On Off|Off|A|告诉PHP发送HTTP响应代码是需要使用什么类型的标头，0表示发送web服务器支持的 Status 头，1表示符合RFC 2616
 cgi.check_shebang_line|On Off|On|A|控制 CGI PHP 是否检查脚本顶部以 '#!' 开头的行
 file_uploads|On Off|On|S|是否允许上传文件
 upload_tmp_dir|string|null|S|文件上传的临时目录，默认使用系统指定
